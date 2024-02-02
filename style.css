@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+    min-width: 960px;
+    }
+
+.header {
+    text-align: center;
+    }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-image: url("images/navbar-image.jpg");
+    }
+
+li {
+    display: inline;
+    margin: 10px; 
+    transition: border-bottom 0.15s;      
+    }
+
+a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   
+    }
+
+.navbar a:hover {
+    border-bottom: 4px solid rgb(244, 238, 238);
+    }
+
+main {
+    text-align: center;
+    color: rgb(98, 100, 102);
+    
+    }
+
+h2 {
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: -6px;
+    font-weight: bolder;
+    border-bottom:  1px dashed rgb(98, 100, 102);
+    display: inline-block;
+    width: 63%;
+    }
+
+.description {
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    }
+
+figure figcaption {
+    font-size: 25px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    }
+
+figure img {
+    width: 672px;
+    height: 500px;
+    border: 1px solid grey;
+    padding: 1px;
+    
+    }
+
+    .main-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .review-container {
+        width: 700px;
+        
+    
+    }
+
+    .review-container h2{
+        width:100%;
+       
+    }
+
+.review-1 {
+    margin-top: 30px;
+    }
+
+.review-1, .review-2, .review-3, .review-4, .review-5 {
+    border: 2px lightgray outset;
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px lightgray;
+    }
+
+.review-1 h2, .review-2 h2, .review-3 h2, .review-4 h2, .review-5 h2{
+    font-size: 120%;
+    margin-top: 0;
+    padding: 10px;
+    
+    }
+
+.review-1 p, .review-2 p, .review-3 p, .review-4 p, .review-5 p {
+    padding: 3px;
+    
+    
+    }
+
+.review-1 h3, .review-2 h3, .review-3 h3, .review-4 h3, .review-5 h3 {
+    border-top: 1px dashed lightgray;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    text-align: right;
+    padding-top: 5px;
+    margin-right: 1px;
+    padding-right: 30px;
+    
+    
+   
+    }
+    
+
+.review-1, .review-3, .review-5 {
+   
+    margin-right: auto;
+    
+
+    }
+
+.review-2, .review-4 {
+    
+    margin-left: auto;
+    
+    }
+ 
+    
+
+    .review-1,
+      .review-2,
+      .review-3,
+      .review-4,
+      .review-5 {
+        border: 1px solid;
+        margin-bottom: 30px;
+        max-width: 672px;
+        padding-left: 20px;
+      }
+
+      .review-1, .review-3, .review-3 {
+        margin-right: auto;
+      }
+
+      .review-2, .review-4 {
+        margin-left: auto;
+      }
+
+table {
+    border: 1px solid lightgray;
+    margin: 30px auto 70px auto;
+    padding: 5px;
+    border-radius: 10px;
+    }
+
+th, td {
+    padding: 20px;
+    border: 1px solid lightgray;
+    }
+
+th {
+    background-color: #505E67;
+    color: white;
+    font-size: 1.2em;
+    }
+
+tr:nth-child(odd) {
+    background-color: #E6E6E6;
+    }
+
+.footer-container {
+    width:960px;
+    margin: 0 auto;
+    overflow: auto;
+    }
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: #25252d;
+    color: white;
+    }
+
+.footer-container a  {
+    color: white;
+    text-decoration: underline ;
+    }
+
+.footer-container ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px 0px;
+    }
+
+.footer-container li{
+    display: inline;
+    margin: 10px;
+    }
+
+.email-link {
+    width: 150px;
+    height: 30px;
+    background-color: #26244B;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    }
