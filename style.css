@@ -65,7 +65,7 @@ figure img {
   padding: 1px;
 }
 
-img:hover {
+figure img:hover {
   transform: scale(1.1) translateY(20px);
 }
 
